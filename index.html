@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Google-like Search Engine">
+  <title>Google Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav">
+        <span></span>
+        <ul class="nav-links">
+          <li><a href="https://mail.google.com">Gmail</a></li>
+          <li><a href="#images">Images</a></li>
+          <span><button id="login-btn"><a href="https://mail.google.com">Sign in</a></button></span>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="main-container">
+    <div class="logo-container">
+      <img src="v2.png" alt="Google Logo" class="logo">
+        <form class="search-form" onsubmit="search(event)" >
+          <input type="text" id="search-bar" class="search-bar" placeholder="Search Google or type a URL" autocomplete="off">
+          <button type="submit" class="search-btn" >Search</button>
+          <button type="button" class="lucky-btn">I'm Feeling Lucky</button>
+          <button type="button" class="trend-btn">Trending now</button>
+        </form>
+    </div>
+  </div>
+    <footer>
+    <div class="footer">
+      <p>VAMS, Privacy, Terms</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

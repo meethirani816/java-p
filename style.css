@@ -1,0 +1,185 @@
+/* General reset  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ header*/
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* White background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.navbar {
+    background-color:#1f1f1f;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: white;
+    width: 100%;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20PX;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+  
+  .main-container {
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .logo-container .logo {
+    width: 270px; /* Similar logo size to Google */
+    margin-bottom: 0px;
+  }
+  
+  .search-bar {
+    width: 72%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    background-color: #171616;
+    color: #ffffff;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-bar:hover {
+    background-color: #373535;
+  }
+
+  .search-bar:focus {
+    border-color: #1c6df0;
+    box-shadow: 0 0 5px rgba(23, 99, 221, 0.6);
+  }
+  
+  .search-btn, .lucky-btn, .trend-btn {
+    padding: 16px 44px;
+    font-size: 14px;
+    border-radius: 24px;
+    border: none;
+    margin: 10px 6px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    color: #5f6368;
+    transition: background-color 0.3s;
+  }
+  
+  #login-btn {
+    padding: 16px 0px;
+    font-size: 15px;
+    border-radius: 24px;
+    border: none;
+    margin: -10px auto;
+    cursor: pointer;
+    background-color: #1f1f1f;
+    color: #000000;
+    transition: background-color 0.3s;
+  }
+  
+  .search-btn {
+    background-color: #1c61ce;
+    color: white;
+  }
+  
+  .search-btn:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  /* #login-btn:hover {
+    background-color: #8d8b8b;
+  } */
+  
+  .lucky-btn {
+    border: 1px solid #f8f8f8;
+  }
+  
+  .lucky-btn:hover {
+    background-color: #211f1f;
+    color: #dcdcdc;
+  }
+  
+  .trend-btn {
+    border: 1px solid #f8f8f8;
+  }
+  
+  .trend-btn:hover {
+    background-color: #232222;
+    color: #dcdcdc;
+  }
+  
+  footer{
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  .footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #757575;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .setting {
+    justify-content: left;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .logo-container .logo {
+      width: 200px;
+    }
+  
+    .main-container {
+      padding: 20px;
+    }
+  
+    .search-btn, .lucky-btn {
+      font-size: 12px;
+      padding: 12px 25px;
+    }
+  }
+  
